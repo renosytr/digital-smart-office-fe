@@ -3,7 +3,7 @@
     <div class="relative w-full h-full">
       <div class="room-name-position left-1/2 bottom-4">LIBRARY ROOM</div>
       <div class="library-space absolute flex">
-        <div v-for="(user, index) in dataUserLibrary" :key="index">
+        <div v-for="(user, index) in props.dataUserLibrary" :key="index">
           <div
             v-if="user.name"
             class="absolute flex flex-col items-center"
@@ -36,11 +36,10 @@
   </div>
 </template>
 <script setup lang="ts">
+import "@/components/Atoms/Floor/Library/style.css";
 const props = defineProps<{
-  dataUserLibrary: any[];
+  dataUserLibrary: { image?: string; name?: string }[];
 }>();
 
-const handleMovePosition = () => {
-  console.log("handle move position");
-};
+const handleMovePosition = () => {};
 </script>

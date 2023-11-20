@@ -1,5 +1,5 @@
 <template>
   <div>
-    <MoleculesFirstFloor></MoleculesFirstFloor>
+    <MoleculesFirstFloorMapPosition></MoleculesFirstFloorMapPosition>
   </div>
 </template>

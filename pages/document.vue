@@ -1,5 +1,5 @@
 <template>
   <div>
-    <AtomsPdfViewer></AtomsPdfViewer>
+    <AtomsPdfViewerWindowLoader></AtomsPdfViewerWindowLoader>
   </div>
 </template>
