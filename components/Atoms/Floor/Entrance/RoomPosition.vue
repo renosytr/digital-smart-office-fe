@@ -41,7 +41,5 @@ const props = defineProps<{
   dataUserEntrance: { image?: string; name?: string }[];
 }>();
 
-const handleMovePosition = () => {
-  console.log("hello husky");
-};
+const handleMovePosition = () => {};
 </script>

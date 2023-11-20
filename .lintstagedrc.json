@@ -1,15 +1,6 @@
 {
-  "*.vue": [
-    "prettier --write --list-different",
-    "eslint"
-  ],
-  "*.ts": [
-    "prettier --write --list-different",
-    "eslint"
-  ],
-  "*.html": [
-    "eslint",
-    "prettier --write --list-different"
-  ],
+  "*.vue": ["prettier --write --list-different", "eslint"],
+  "*.ts": ["prettier --write --list-different", "eslint"],
+  "*.html": ["eslint", "prettier --write --list-different"],
   "*.css": "prettier --write --list-different"
 }
