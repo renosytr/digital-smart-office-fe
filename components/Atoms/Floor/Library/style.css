@@ -1,0 +1,58 @@
+.library-position {
+  width: 615px;
+  height: 450px;
+}
+
+.room-name-position {
+  position: absolute;
+  transform: translateX(-50%);
+  background: white;
+  padding: 3px 10px;
+  border-radius: 1rem;
+  font-size: 12px;
+  font-weight: bold;
+  color: #6c6b6b;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.library-space {
+  width: 575px;
+  height: 250px;
+  top: 150px;
+  left: 25px;
+}
+
+.library-chair-0 {
+  top: 90px;
+  left: 60px;
+}
+
+.library-chair-1 {
+  top: 10px;
+  left: 180px;
+}
+
+.library-chair-2 {
+  top: 10px;
+  left: 297px;
+}
+
+.library-chair-3 {
+  top: 90px;
+  left: 415px;
+}
+
+.library-chair-4 {
+  top: 110px;
+  left: 180px;
+}
+
+.library-chair-5 {
+  top: 110px;
+  left: 297px;
+}
+
+.status-active {
+  border-color: #1db353;
+  background-color: #1db353;
+}
